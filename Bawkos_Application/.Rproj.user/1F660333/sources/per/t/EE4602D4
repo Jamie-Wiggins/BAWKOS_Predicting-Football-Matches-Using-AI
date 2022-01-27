@@ -1,0 +1,26 @@
+{
+    "id": "EE4602D4",
+    "path": "~/COM3018_Code/ProjectBawkos_Group_I/RF/preprocessing_rf.R",
+    "project_path": "RF/preprocessing_rf.R",
+    "type": "r_source",
+    "hash": "3246953862",
+    "contents": "",
+    "dirty": false,
+    "created": 1638154618179.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "1,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1638180105,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1638180105674,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,26 @@
+{
+    "id": "5925D0A8",
+    "path": "~/COM3018_Code/ProjectBawkos_Group_I/NN/preprocessing_nn.R",
+    "project_path": "NN/preprocessing_nn.R",
+    "type": "r_source",
+    "hash": "1430211393",
+    "contents": "",
+    "dirty": false,
+    "created": 1638154583246.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "6,18",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1638180000,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1638180000121,
+    "read_only": false,
+    "read_only_alternatives": []
+}

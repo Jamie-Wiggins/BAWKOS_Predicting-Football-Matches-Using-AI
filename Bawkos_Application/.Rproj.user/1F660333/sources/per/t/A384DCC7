@@ -1,0 +1,26 @@
+{
+    "id": "A384DCC7",
+    "path": "~/COM3018_Code/ProjectBawkos_Group_I/RF/classification_rf.R",
+    "project_path": "RF/classification_rf.R",
+    "type": "r_source",
+    "hash": "433824622",
+    "contents": "",
+    "dirty": false,
+    "created": 1638153748205.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "80,26",
+        "scrollLine": "66"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1638168609,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1638168609643,
+    "read_only": false,
+    "read_only_alternatives": []
+}

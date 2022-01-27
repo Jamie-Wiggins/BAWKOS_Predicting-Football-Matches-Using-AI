@@ -1,0 +1,26 @@
+{
+    "id": "DC0E1D27",
+    "path": "~/COM3018_Code/ProjectBawkos_Group_I/KNN/preprocessing_knn.R",
+    "project_path": "KNN/preprocessing_knn.R",
+    "type": "r_source",
+    "hash": "2512365991",
+    "contents": "",
+    "dirty": false,
+    "created": 1638153339622.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "w9tzy0uulif3l",
+        "Source": "Source",
+        "cursorPosition": "4,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1638180092,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1638180092878,
+    "read_only": false,
+    "read_only_alternatives": []
+}

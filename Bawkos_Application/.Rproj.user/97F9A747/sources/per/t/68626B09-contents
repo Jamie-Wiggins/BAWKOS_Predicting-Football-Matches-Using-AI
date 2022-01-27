@@ -1,0 +1,46 @@
+##### Packages #####
+install.packages("caret")
+library(neuralnet)
+library(caret)
+
+##### Neural Network Model #####
+# Function that takes the formula and data to build a neural network that will
+# compute predictions for XGNS.
+nn_xGNS <- function(f, data, side) {
+  nn <- neuralnet(f,
+                  data=data,
+                  stepmax=1e7,
+                  hidden=2,
+                  act.fct="logistic",
+                  linear.output = TRUE)
+  
+  #plot(nn)
+  predict = neuralnet::compute(nn, data)
+  # Compute correct confusion matrix dependent on if the team is Home or Away
+  if (side == "H") {
+    matrix <- confusionMatrix(factor(round(predict$net.result,digits = 0),
+                                     levels=c("0", "1", "2", "3", "4", "5", "6",
+                                              "7", "8", "9")),
+                                     as.factor(data$FTHG))
+    print(matrix)
+    # Workout the errors for the model
+    rmse = RMSE(round(predict$net.result,digits = 0), data$FTHG)
+    mae = MAE(round(predict$net.result,digits = 0), data$FTHG)
+    print(rmse)
+    print(mae)
+  } else {
+    matrix <- confusionMatrix(factor(round(predict$net.result,digits = 0),
+                                     levels=c("0", "1", "2", "3", "4", "5", "6",
+                                              "7", "9")),
+                                     as.factor(data$FTAG))
+    print(matrix)
+    # Workout the errors for the model
+    rmse = RMSE(round(predict$net.result,digits = 0), data$FTAG)
+    mae = MAE(round(predict$net.result,digits = 0), data$FTAG)
+    print(rmse)
+    print(mae)
+  }
+
+  return(predict)
+}
+  
